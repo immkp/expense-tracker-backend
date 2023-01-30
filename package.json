@@ -12,9 +12,9 @@
     "mongoose": "^6.9.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "server": "nodemon index",
+    "build": "webpack --config webpack.config.js"
   },
-  "author": "",
+  "author": "Manas",
   "license": "ISC"
 }
